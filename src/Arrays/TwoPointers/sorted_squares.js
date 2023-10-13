@@ -1,7 +1,7 @@
 // Solution to a LeetCode problem: Squares of a Sorted Array.
 //
 // Topic: Arrays/Strings.
-// Approach: Two pointers.
+// Approach: Two Pointers.
 // Difficulty: Easy.
 //
 // Given an integer array nums sorted in non-decreasing order,

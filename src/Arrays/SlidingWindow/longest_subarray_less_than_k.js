@@ -1,3 +1,22 @@
+// Solution to a LeetCode problem: Longest Subarray Less Than or Equal to K.
+
+/**  
+  Topic: Arrays/Strings.
+  Approach: Sliding Window.
+  Difficulty: Easy.
+*/
+
+// Given an array of positive integers nums and an integer k,
+// find the length of the longest subarray whose sum is less than or equal to k.
+
+// Find examples in the 'tests' folder.
+
+/**
+ * @param {number[]} arr
+ * @param {number} k
+ * @return {number}
+ */
+
 export function longestSubarrayLessThanK(arr, k) {
   let left = 0;
   let curr = 0;

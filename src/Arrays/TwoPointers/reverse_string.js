@@ -1,7 +1,7 @@
 // Solution to a LeetCode problem: Reverse String.
 //
 // Topic: Arrays/Strings.
-// Approach: Two pointers.
+// Approach: Two Pointers.
 // Difficulty: Easy.
 //
 // Write a function that reverses a string. The input string is given as an array of characters s.
