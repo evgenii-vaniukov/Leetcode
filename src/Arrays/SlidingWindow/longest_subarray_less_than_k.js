@@ -18,6 +18,8 @@
  */
 
 export function longestSubarrayLessThanK(arr, k) {
+  // Time Complexity: O(n).
+  // Space Complexity: O(1).
   let left = 0;
   let curr = 0;
   let ans = 0;
