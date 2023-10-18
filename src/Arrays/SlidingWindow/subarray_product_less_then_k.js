@@ -3,7 +3,7 @@
 /**  
   Topic: Arrays/Strings.
   Approach: Sliding Window.
-  Difficulty: Easy.
+  Difficulty: Medium.
 */
 
 // Given an array of positive integers nums and an integer k,
@@ -19,6 +19,24 @@
  * @return {number}
  */
 
-export function subarrayProductLessThanK(arr) {
-  // TODO
+export function subarrayProductLessThanK(arr, k) {
+  if (k <= 1) {
+    return 0;
+  }
+
+  let left = 0;
+  let ans = 0;
+  let curr = 1;
+
+  for (let right = 0; right < arr.length; right++) {
+    curr *= arr[right];
+
+    while (curr >= k) {
+      curr /= arr[left];
+      left++;
+    }
+
+    ans += right - left + 1;
+  }
+  return ans;
 }

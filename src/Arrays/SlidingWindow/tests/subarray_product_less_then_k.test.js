@@ -9,4 +9,11 @@ describe("Testing 'Subarray Product Less Than K' Algorithm", () => {
     const expectedOutput = 8;
     expect(subarrayProductLessThanK(arr, k)).toEqual(expectedOutput);
   });
+
+  test("Test 2", () => {
+    const arr = [1];
+    const k = 0;
+    const expectedOutput = 0;
+    expect(subarrayProductLessThanK(arr, k)).toEqual(expectedOutput);
+  });
 });
