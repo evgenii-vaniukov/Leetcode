@@ -20,6 +20,9 @@
  */
 
 export function subarrayProductLessThanK(arr, k) {
+  // Time Complexity: O(n).
+  // Space Complexity: O(1).
+
   if (k <= 1) {
     return 0;
   }
