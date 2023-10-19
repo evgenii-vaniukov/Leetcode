@@ -1,4 +1,4 @@
-// Solution to a LeetCode problem: Reverse String
+// Solution to a LeetCode problem: Reverse String (Array)
 
 /**  
   Topic: Arrays/Strings.
@@ -6,29 +6,29 @@
   Difficulty: Easy.
 */
 
-// Write a function that reverses a string. The input string is given as an array of characters s.
+// Write a function that reverses a string. The input string is given as an array of characters arr.
 // You must do this by modifying the input array in-place with O(1) extra memory.
 
 // Find examples in the 'tests' folder.
 
 // Input-Output Format:
 /**
- * @param {character[]} s
- * @return {Array} s
+ * @param {character[]} arr
+ * @return {Array} ans
  */
 
-export function reverseString(s) {
+export function reverseString(arr) {
   // Time Complexity: O(n);
   // Space Complexity: O(1);
 
   let left = 0;
-  let right = s.length - 1;
+  let right = arr.length - 1;
 
   while (left < right) {
-    [s[left], s[right]] = [s[right], s[left]];
+    [arr[left], arr[right]] = [arr[right], arr[left]];
 
     left++;
     right--;
   }
-  return s;
+  return arr;
 }

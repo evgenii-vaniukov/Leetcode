@@ -12,6 +12,7 @@
 
 // Find examples in the 'tests' folder.
 
+// Input-Output Format:
 /**
  * @param {number[]} arr
  * @param {number} k
