@@ -1,4 +1,4 @@
-// Solution to a LeetCode problem: Longest Subarray Less Than or Equal to K.
+// Solution to a LeetCode problem: Longest Subarray Less Than or Equal to K
 
 /**  
   Topic: Arrays/Strings.
@@ -19,8 +19,9 @@
  */
 
 export function longestSubarrayLessThanK(arr, k) {
-  // Time Complexity: O(n).
-  // Space Complexity: O(1).
+  // Time Complexity: O(n);
+  // Space Complexity: O(1);
+
   let left = 0;
   let curr = 0;
   let ans = 0;

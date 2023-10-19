@@ -1,4 +1,4 @@
-// Solution to a LeetCode problem: Subarray Product Less Than K.
+// Solution to a LeetCode problem: Subarray Product Less Than K
 
 /**  
   Topic: Arrays/Strings.
@@ -14,14 +14,14 @@
 
 // Input-Output Format:
 /**
- * @param {number[]} nums
+ * @param {number[]} arr
  * @param {number} k
  * @return {number}
  */
 
 export function subarrayProductLessThanK(arr, k) {
-  // Time Complexity: O(n).
-  // Space Complexity: O(1).
+  // Time Complexity: O(n);
+  // Space Complexity: O(1);
 
   if (k <= 1) {
     return 0;

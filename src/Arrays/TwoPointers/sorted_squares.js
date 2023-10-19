@@ -1,4 +1,4 @@
-// Solution to a LeetCode problem: Squares of a Sorted Array.
+// Solution to a LeetCode problem: Squares of a Sorted Array
 
 /**  
   Topic: Arrays/Strings.
@@ -13,13 +13,13 @@
 
 // Input-Output Format:
 /**
- * @param {number[]} nums
+ * @param {number[]} arr
  * @return {number[]}
  */
 
 export function sortedSquares(arr) {
-  // Time Complexity: O(n).
-  // Space Complexity: O(n).
+  // Time Complexity: O(n);
+  // Space Complexity: O(n);
 
   let result = new Array(arr.length);
   let left = 0;

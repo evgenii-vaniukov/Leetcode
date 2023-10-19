@@ -1,4 +1,4 @@
-// Solution to a LeetCode problem: Longest Subarray/Substring With Only Ones.
+// Solution to a LeetCode problem: Longest Subarray/Substring With Only Ones
 
 /**  
   Topic: Arrays/Strings.
@@ -19,8 +19,9 @@
  */
 
 export function longestSubstringWithOnlyOnes(s) {
-  // Time Complexity: O(n).
-  // Space Complexity: O(1).
+  // Time Complexity: O(n);
+  // Space Complexity: O(1);
+
   let ans = 0,
     countZeros = 0,
     left = 0;

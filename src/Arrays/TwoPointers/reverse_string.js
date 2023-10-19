@@ -1,4 +1,4 @@
-// Solution to a LeetCode problem: Reverse String.
+// Solution to a LeetCode problem: Reverse String
 
 /**  
   Topic: Arrays/Strings.
@@ -18,6 +18,9 @@
  */
 
 export function reverseString(s) {
+  // Time Complexity: O(n);
+  // Space Complexity: O(1);
+
   let left = 0;
   let right = s.length - 1;
 
