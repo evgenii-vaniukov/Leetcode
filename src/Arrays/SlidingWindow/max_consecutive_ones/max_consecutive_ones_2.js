@@ -1,4 +1,4 @@
-// Solution to a LeetCode problem: Max Consecutive Ones
+// Solution to a LeetCode problem: Max Consecutive Ones II
 
 /**  
   Topic: Arrays/Strings.
