@@ -19,7 +19,6 @@
  * @return {number}
  */
 
-// [100101] 2
 export function maxConsecutiveOnes(arr, k) {
   // Time Complexity: O(n);
   // Space Complexity: O(1);

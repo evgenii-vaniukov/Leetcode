@@ -14,7 +14,7 @@
 // Input-Output Format:
 /**
  * @param {character[]} arr
- * @return {Array} ans
+ * @return {character[]}
  */
 
 export function reverseString(arr) {

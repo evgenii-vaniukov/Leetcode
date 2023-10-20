@@ -1,4 +1,5 @@
 import {maxConsecutiveOnes} from "../max_consecutive_ones_3";
+
 describe("Testing 'Max Consecutive Ones III' Algorithm", () => {
   test("Test 1", () => {
     const arr = [1, 0, 0, 1, 0, 1];

@@ -22,6 +22,7 @@
 export function maximumAverageSubarray(arr, k) {
   // Time Complexity: O(n);
   // Space Complexity: O(1);
+
   let curr = 0;
 
   for (let i = 0; i < k; i++) {
