@@ -7,28 +7,38 @@
 */
 
 // Given a binary array nums,
-// return the maximum number of consecutive 1's in the array.
+// return the maximum number of consecutive 1's in the array
+// if you can flip at most one 0.
 
 // Find examples in the 'tests' folder.
 
 // Input-Output Format:
 /**
- * @param {number[]} nums
+ * @param {number[]} arr
  * @return {number}
  */
 
 export function maxConsecutiveOnes(arr) {
-  let ans = 0;
-  let curr = 0;
+  // Time Complexity: O(n);
+  // Space Complexity: O(1);
+
   const n = arr.length;
+  let ans = 0;
+  let countZeros = 0;
+  let left = 0;
 
   for (let right = 0; right < n; right++) {
-    if (arr[right] == 1) {
-      curr++;
-    } else {
-      ans = Math.max(curr, ans);
-      curr = 0;
+    if (arr[right] == 0) {
+      countZeros++;
     }
+
+    while (countZeros > 1) {
+      if (arr[left] == 0) {
+        countZeros--;
+      }
+      left++;
+    }
+    ans = Math.max(ans, right - left + 1);
   }
-  return Math.max(ans, curr);
+  return ans;
 }

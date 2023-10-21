@@ -13,11 +13,14 @@
 
 // Input-Output Format:
 /**
- * @param {number[]} nums
+ * @param {number[]} arr
  * @return {number}
  */
 
 export function maxConsecutiveOnes(arr) {
+  // Time Complexity: O(n);
+  // Space Complexity: O(1);
+
   let ans = 0;
   let curr = 0;
   const n = arr.length;
