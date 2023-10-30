@@ -13,7 +13,7 @@
 
 // You can return the answer in any order.
 
-// Find examples in the 'tests' folder.
+// Find examples in the test file.
 
 // Input-Output Format:
 /**
