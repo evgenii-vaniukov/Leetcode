@@ -1,4 +1,4 @@
-import {twoSum} from "./two_sum";
+import {twoSum} from "./two_sum.ts";
 describe("Testing 'Two Sum' Algorithm", () => {
   test("Test 1", () => {
     const arr = [9, 1, 4];
